@@ -134,7 +134,7 @@ class BrowseState extends State<Browse> with SingleTickerProviderStateMixin {
 
                   Divider(),
 
-                  stocks,
+                  // stocks,
 
                 ],
               ),

@@ -42,7 +42,7 @@ class Auth extends StatelessWidget {
       // valid.
       await bloc.setKey(key);
       await Future.delayed(Duration(milliseconds: 300));
-      Navigator.of(context).pushReplacementNamed('/home');
+      // Navigator.of(context).pushReplacementNamed('/home');
     } else {
       // Show an error if the API key isn't valid.
       await bloc.setKey('');
